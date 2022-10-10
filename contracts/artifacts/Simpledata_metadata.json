@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "favNum",
+						"type": "uint256"
+					}
+				],
+				"name": "numstore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "print",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Simpledata.sol": "Simpledata"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Simpledata.sol": {
+			"keccak256": "0x0a38a6aa2f98bb0ab229f8b3d30ba3e098b577930b928a3c23190aa91f1a9295",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9ea650528ef3a86178f283a908513e0488084b41e0580ba51da526f418722232",
+				"dweb:/ipfs/QmfC2fbdEK9Sj4oK2USTPTjVoUHEWPPQhyBD8aXK8hGYf1"
+			]
+		}
+	},
+	"version": 1
+}
